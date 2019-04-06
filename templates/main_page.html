@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>Powerful Chat System - Lesson 9</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/rooms.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Powerful Chat System - Lesson 9</h2>
+        <a href="http://www.script-tutorials.com/powerful-chat-system-lesson-9/" class="stuts">Back to original tutorial on <span>Script Tutorials</span></a>
+    </header>
+    <div class="clear"></div>
+    <div class="container" id="con1">
+        {form}
+        {avatar}
+    </div>
+    <div class="container" id="con2">
+        {rooms}
+        {new_room}
+
+        <h2>{chat_name} Chat Block</h2>
+        <div class="chat_messages">
+            {chat}
+        </div>
+        {input}
+    </div>
+
+    <div class="sidebar">
+        <div>
+            <h2>Online Members Block</h2>
+            {online_members}
+        </div>
+        <div>
+            <h2>Last Members</h2>
+            {profiles}
+        </div>
+    </div>
+
+    <div class="priv_dock_wrap"></div>
+    {priv_js}
+
+</body>
+</html>

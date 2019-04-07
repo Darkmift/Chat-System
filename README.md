@@ -1,2 +1,4 @@
 # Chat-System
-Not my work -- source unknown got it from someone asking for debug help.
+Forked/based on Andrew's work from his site at:
+
+https://www.script-tutorials.com/
